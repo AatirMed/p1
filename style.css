@@ -288,7 +288,7 @@ main {
   display: none;
 }
 #speaking .speaking-container .container-speak-repeat .name-tag {
-  visibility: hidden;
+  /* visibility: hidden;  test github*/
 }
 #speaking .speaking-container .m1 {
   background-image: url("./images/speak/member-1.jpg");
