@@ -519,7 +519,6 @@ main {
 #ticket-pricing {
   width: 100%;
   display: block;
-  background-color: aqua;
 }
 #ticket-pricing .ticket-pricing-bg {
   width: 1140px;
