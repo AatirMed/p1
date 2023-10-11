@@ -1,3 +1,53 @@
+//tab Our Schedule
+const changeClr = (index) => {
+    document.getElementById(index).classList.add('change-color-click');
+    for (let i = 0; i < 5; i++) {
+        if (i !== parseInt(index[1])) {
+            document.getElementById(`d${i}`).classList.remove('change-color-click')
+        }
+    }
+}
+
+
+// document.getElementById(index).classList.add('change-color-click');
+// document.getElementById(index).classList.remove('change-color-click');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function updateCountdown() {

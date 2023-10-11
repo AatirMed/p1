@@ -72,7 +72,7 @@ header nav .nav-content .btn-ticket span {
 /* start main ------------------------------------------------*/
 main {
   width: 100%;
-  height: 3000px;
+  height: 5000px;
   /* background: rgb(0, 225, 255); */
 }
 
@@ -260,6 +260,7 @@ main {
 #speaking {
   width: 100%;
   text-align: center;
+  padding-bottom: 100px;
 }
 #speaking .speaking-text {
   margin-bottom: 40px;
@@ -387,6 +388,241 @@ main {
 }
 /* end  speaking*/
 
+/* start Our Schedule ---------------------------------------------------- */
+#our-schedule {
+  width: 100%;
+  display: block;
+}
+
+#our-schedule .our-schedule-bg {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#our-schedule .our-schedule-bg .our-schedule-text {
+  text-align: center;
+}
+#our-schedule .our-schedule-bg .our-schedule-text h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#our-schedule .our-schedule-bg .our-schedule-text p {
+  font-size: 18px;
+  color: #6a6b7c;
+}
+/*  */
+#our-schedule .our-schedule-bg .our-schedule-bar-date {
+  width: 100%;
+  height: 80px;
+  border: none;
+  box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+  margin: 50px 0;
+  display: flex;
+}
+#our-schedule .our-schedule-bg .our-schedule-bar-date li {
+  width: 20%;
+  border-right: 1px solid #e7e7e8;
+  list-style: none;
+}
+#our-schedule .our-schedule-bg .our-schedule-bar-date a {
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#our-schedule .our-schedule-bg .our-schedule-bar-date a h4 {
+  color: #000;
+  font-size: 18px;
+}
+#our-schedule .our-schedule-bg .our-schedule-bar-date a span {
+  color: #6a6b7c;
+}
+#our-schedule .our-schedule-bg .our-schedule-bar-date .change-color-click {
+  background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%),
+    linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+  color: #fff;
+}
+#our-schedule .our-schedule-bg .our-schedule-bar-date .change-color-click a h4,
+#our-schedule
+  .our-schedule-bg
+  .our-schedule-bar-date
+  .change-color-click
+  a
+  span {
+  color: #fff;
+}
+/*  */
+#our-schedule .our-schedule-bg .our-schedule-container {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#our-schedule .our-schedule-bg .our-schedule-container .container-r {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 90px;
+}
+#our-schedule .our-schedule-bg .our-schedule-container .container-r img {
+  border-radius: 60px;
+}
+#our-schedule .our-schedule-bg .our-schedule-container .container-r .time-map {
+  display: flex;
+  flex-direction: column;
+}
+#our-schedule
+  .our-schedule-bg
+  .our-schedule-container
+  .container-r
+  .time-map
+  span {
+  font-size: 16px;
+  color: #6a6b7c;
+  line-height: 32px;
+}
+#our-schedule
+  .our-schedule-bg
+  .our-schedule-container
+  .container-r
+  .info
+  span
+  i,
+#our-schedule
+  .our-schedule-bg
+  .our-schedule-container
+  .container-r
+  .time-map
+  span
+  i {
+  color: #f44949;
+  margin-right: 5px;
+}
+#our-schedule .our-schedule-bg .our-schedule-container .container-r .info {
+  margin-left: -30px;
+}
+#our-schedule .our-schedule-bg .our-schedule-container .container-r .info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* end Our Schedule */
+
+/* strat Ticket Pricing ----------------------------------------------------------------*/
+#ticket-pricing {
+  width: 100%;
+  display: block;
+  background-color: aqua;
+}
+#ticket-pricing .ticket-pricing-bg {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 40px 0 50px 0;
+}
+#ticket-pricing .ticket-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#ticket-pricing .ticket-text h3 {
+  font-size: 38px;
+  color: #171822;
+}
+#ticket-pricing .ticket-text span {
+  font-size: 18px;
+  color: #6a6b7c;
+}
+/*  */
+#ticket-pricing .container-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#ticket-pricing .container-price .price {
+  width: 31.5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 4px;
+  position: relative;
+}
+#ticket-pricing .container-price .price h3 {
+  font-size: 24px;
+  line-height: 90px;
+  text-align: center;
+}
+#ticket-pricing .container-price .price .price-d845 {
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
+    linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+}
+#ticket-pricing .container-price .price .price-d845 sup {
+  font-size: 30px;
+}
+#ticket-pricing .container-price .price .price-d845 span {
+  font-size: 60px;
+  font-weight: 700;
+}
+#ticket-pricing .container-price .price ul {
+  text-align: center;
+  padding: 25px 0;
+}
+#ticket-pricing .container-price .price ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #6a6b7c;
+  line-height: 38px;
+}
+#ticket-pricing .container-price .price .btn-getTicket {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 40px 0;
+}
+#ticket-pricing .container-price .price .btn-getTicket a {
+  padding: 8px 90px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #ee8425;
+  font-weight: 500;
+  border: 1px solid #ee8425;
+  border-radius: 20px;
+}
+#ticket-pricing .container-price .price .btn-getTicket a:hover {
+  background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
+    linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+  color: #fff;
+}
+#ticket-pricing .container-price .tag {
+  width: 28px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
+  linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 65%, 0% 100%, 0% 0%);
+  clip-path: polygon(100% 0%, 100% 100%, 50% 65%, 0% 100%, 0% 0%);
+  position: absolute;
+  right: 26px;
+  top: 0;
+}
+#ticket-pricing .container-price .tag i{
+  color: #fff;
+  line-height: 38px;
+}
+/* end Ticket Pricing */
+
+
+/* start  Latest News*/
+
+/* end Latest News */
 
 
 
@@ -404,22 +640,8 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* start  */
+/* end  */
 
 
 /* end main */

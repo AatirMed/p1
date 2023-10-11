@@ -29,7 +29,7 @@
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">CONTACTS</a></li>
                 </ul>
-                <a href="#" class="btn-ticket"><i class="fa fa-ticket" aria-hidden="true"></i>Ticket</a>
+                <a href="#ticket-pricing" class="btn-ticket"><i class="fa fa-ticket" aria-hidden="true"></i>Ticket</a>
             </div>
         </nav>
     </header>
@@ -43,7 +43,7 @@
                 <div class="hero_text">
                     <span>5 TO 9 MAY 2019, MARDAVALL HOTEL, NEW YORK</span>
                     <h2>Change Your Mind To Become Sucess</h2>
-                    <a href="#">Buy Ticket</a>
+                    <a href="#ticket-pricing">Buy Ticket</a>
                 </div>
                 <div class="hero_img">
                     <img src="./images/vGN18MxnKI_small.png" />
@@ -264,7 +264,7 @@
         </section>
         <!-- end speaking -->
 
-        <!-- start  -->
+        <!-- start  Our Schedule -->
         <section id="our-schedule">
             <div class="our-schedule-bg">
                 <div class="our-schedule-text">
@@ -272,32 +272,32 @@
                     <p>Do not miss anything topic about the event</p>
                 </div>
                 <ul class="our-schedule-bar-date">
-                    <li>
-                        <a href="#">
+                    <li id="d0" class="change-color-click" onclick="changeClr('d0')">
+                        <a>
                             <h4>Day 1</h4>
                             <span>May 04, 2019</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li id="d1" onclick="changeClr('d1')">
+                        <a>
                             <h4>Day 2</h4>
                             <span>May 05, 2019</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li id="d2" onclick="changeClr('d2')">
+                        <a>
                             <h4>Day 3</h4>
                             <span>May 06, 2019</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li id="d3" onclick="changeClr('d3')">
+                        <a>
                             <h4>Day 4</h4>
                             <span>May 07, 2019</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li id="d4" onclick="changeClr('d4')">
+                        <a>
                             <h4>Day 5</h4>
                             <span>May 08, 2019</span>
                         </a>
@@ -307,15 +307,164 @@
                     <div class="container-r">
                         <img src="./images/Schedule/schedule-1.jpg" alt="s1" />
                         <div class="info">
-                            <h3></h3>
-                            <span></span>
+                            <h3>Dealing with Difficult People</h3>
+                            <span>
+                                <i class="fa fa-user" aria-hidden="true"></i> John Smith | <i class="fa fa-envelope"
+                                    aria-hidden="true"></i>
+                                john@Colorlib.com</span>
+                        </div>
+                        <div class="time-map">
+                            <span>
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                08:00 am - 10:00 AM
+                            </span>
+                            <span>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                59 Breanne Canyon Suite,USA
+                            </span>
                         </div>
                     </div>
-
+                    <div class="container-r">
+                        <img src="./images/Schedule/schedule-2.jpg" alt="s1" />
+                        <div class="info">
+                            <h3>Dealing with Difficult People</h3>
+                            <span>
+                                <i class="fa fa-user" aria-hidden="true"></i> John Smith | <i class="fa fa-envelope"
+                                    aria-hidden="true"></i>
+                                john@Colorlib.com</span>
+                        </div>
+                        <div class="time-map">
+                            <span>
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                08:00 am - 10:00 AM
+                            </span>
+                            <span>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                59 Breanne Canyon Suite,USA
+                            </span>
+                        </div>
+                    </div>
+                    <div class="container-r">
+                        <img src="./images/Schedule/schedule-3.jpg" alt="s1" />
+                        <div class="info">
+                            <h3>Dealing with Difficult People</h3>
+                            <span>
+                                <i class="fa fa-user" aria-hidden="true"></i> John Smith | <i class="fa fa-envelope"
+                                    aria-hidden="true"></i>
+                                john@Colorlib.com</span>
+                        </div>
+                        <div class="time-map">
+                            <span>
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                08:00 am - 10:00 AM
+                            </span>
+                            <span>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                59 Breanne Canyon Suite,USA
+                            </span>
+                        </div>
+                    </div>
+                    <div class="container-r">
+                        <img src="./images/Schedule/schedule-4.jpg" alt="s1" />
+                        <div class="info">
+                            <h3>Dealing with Difficult People</h3>
+                            <span>
+                                <i class="fa fa-user" aria-hidden="true"></i> John Smith | <i class="fa fa-envelope"
+                                    aria-hidden="true"></i>
+                                john@Colorlib.com</span>
+                        </div>
+                        <div class="time-map">
+                            <span>
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                08:00 am - 10:00 AM
+                            </span>
+                            <span>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                59 Breanne Canyon Suite,USA
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- end  -->
+        <!-- end  Our Schedule -->
+
+        <!-- start ticket-pricing  -->
+        <section id="ticket-pricing">
+            <div class="ticket-pricing-bg">
+                
+                <div class="ticket-text">
+                    <h3>Ticket Pricing</h3>
+                    <span>Get your event ticket plan</span>
+                </div>
+                <div class="container-price">
+                    <div class="price">
+                        <h3>1 DAY PASS</h3>
+                        <div class="price-d845">
+                            <span><sup>$</sup>109</span>
+                        </div>
+
+                        <ul>
+                            <li>One Day Conference Ticket</li>
+                            <li>Coffee-break</li>
+                            <li>Lunch and Networking</li>
+                            <li>Keynote talk</li>
+                            <li>Talk to the Editors Session</li>
+                        </ul>
+                        <div class="btn-getTicket">
+                            <a href="#">Get Ticket</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="price">
+                        <div class="tag">
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h3>FULL PASS</h3>
+                        <div class="price-d845">
+                            <span><sup>$</sup>199</span>
+                        </div>
+
+                        <ul>
+                            <li>One Day Conference Ticket</li>
+                            <li>Coffee-break</li>
+                            <li>Lunch and Networking</li>
+                            <li>Keynote talk</li>
+                            <li>Talk to the Editors Session</li>
+                            <li>Lunch and Networking</li>
+                            <li>Keynote talk</li>
+                        </ul>
+                        <div class="btn-getTicket">
+                            <a href="#">Get Ticket</a>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <h3>GROUP PASS</h3>
+                        <div class="price-d845">
+                            <span><sup>$</sup>79</span>
+                        </div>
+
+                        <ul>
+                            <li>One Day Conference Ticket</li>
+                            <li>Coffee-break</li>
+                            <li>Lunch and Networking</li>
+                            <li>Keynote talk</li>
+                            <li>Talk to the Editors Session</li>
+                        </ul>
+                        <div class="btn-getTicket">
+                            <a href="#">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- end ticket-pricing  -->
+
+
+
+
+
 
 
         <!-- start  -->
